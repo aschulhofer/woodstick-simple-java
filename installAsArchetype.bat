@@ -1,4 +1,6 @@
 @echo off
-mvn archetype:create-from-project
+call mvn archetype:create-from-project
 cd target\generated-sources\archetype
-mvn install
+call mvn install
+cd ..\..\..
+echo DONE
