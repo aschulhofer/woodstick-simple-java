@@ -7,8 +7,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>simple-java</name>
-
 	<properties>
 		<!-- Encodings -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -163,7 +161,7 @@
 		</plugins>
 	</build>
 	
-	<!-- ############ REPORTING ########## -->
+	<!-- REPORTING -->
 
 	<reporting>
 		<plugins>
